@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+body {
+    min-width: 640px;
+    max-width: 1460px;
+    margin: auto;
+    background-color: grey;
+}
+
+table.schedule {
+    background-color: white;
+    width: 100%;
+    border: 15px outset rgb(184, 31, 31);
+    border-collapse: collapse;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+table.schedule tr {
+    height: 25px;
+}
+ 
+table.schedule th, table.schedule td {
+    border: 2px solid rgb(0, 0, 0);
+    vertical-align: top;
+    padding: 5px;
+}
+
+table.schedule tfoot {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+table.schedule caption {
+    background-color: black;
+    color: white;
+}
+
+col.timeColumn {
+    width: 8%;
+    background: rgb(190, 118, 8);
+ }
+ 
+ col.columns {
+    width: 11%;
+    background: rgb(207, 117, 117);
+ }
